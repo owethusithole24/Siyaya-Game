@@ -1,0 +1,826 @@
+{
+  "nodes": [
+    {
+      "name": "Cape Town",
+      "province": "Western Cape",
+      "pts": 29,
+      "type": "city",
+      "x": 110,
+      "y": 570
+    },
+    {
+      "name": "Stellenbosch",
+      "province": "Western Cape",
+      "pts": 13,
+      "type": "town",
+      "x": 180,
+      "y": 545
+    },
+    {
+      "name": "Paarl",
+      "province": "Western Cape",
+      "pts": 10,
+      "type": "town",
+      "x": 210,
+      "y": 515
+    },
+    {
+      "name": "Worcester",
+      "province": "Western Cape",
+      "pts": 5,
+      "type": "town",
+      "x": 285,
+      "y": 490
+    },
+    {
+      "name": "George",
+      "province": "Western Cape",
+      "pts": 7,
+      "type": "town",
+      "x": 260,
+      "y": 615
+    },
+    {
+      "name": "Kimberley",
+      "province": "Northern Cape",
+      "pts": 20,
+      "type": "city",
+      "x": 390,
+      "y": 360
+    },
+    {
+      "name": "Upington",
+      "province": "Northern Cape",
+      "pts": 8,
+      "type": "town",
+      "x": 225,
+      "y": 320
+    },
+    {
+      "name": "Springbok",
+      "province": "Northern Cape",
+      "pts": 5,
+      "type": "town",
+      "x": 120,
+      "y": 250
+    },
+    {
+      "name": "De Aar",
+      "province": "Northern Cape",
+      "pts": 3,
+      "type": "town",
+      "x": 355,
+      "y": 445
+    },
+    {
+      "name": "Postmasburg",
+      "province": "Northern Cape",
+      "pts": 7,
+      "type": "town",
+      "x": 330,
+      "y": 300
+    },
+    {
+      "name": "Bloemfontein",
+      "province": "Free State",
+      "pts": 25,
+      "type": "city",
+      "x": 520,
+      "y": 405
+    },
+    {
+      "name": "Welkom",
+      "province": "Free State",
+      "pts": 10,
+      "type": "town",
+      "x": 515,
+      "y": 335
+    },
+    {
+      "name": "Sasolburg",
+      "province": "Free State",
+      "pts": 7,
+      "type": "town",
+      "x": 580,
+      "y": 290
+    },
+    {
+      "name": "Kroonstad",
+      "province": "Free State",
+      "pts": 5,
+      "type": "town",
+      "x": 565,
+      "y": 345
+    },
+    {
+      "name": "Phuthaditjhaba",
+      "province": "Free State",
+      "pts": 9,
+      "type": "town",
+      "x": 630,
+      "y": 375
+    },
+    {
+      "name": "Rustenburg",
+      "province": "North West",
+      "pts": 23,
+      "type": "city",
+      "x": 560,
+      "y": 205
+    },
+    {
+      "name": "Klerksdorp",
+      "province": "North West",
+      "pts": 14,
+      "type": "town",
+      "x": 475,
+      "y": 250
+    },
+    {
+      "name": "Mahikeng",
+      "province": "North West",
+      "pts": 9,
+      "type": "town",
+      "x": 430,
+      "y": 180
+    },
+    {
+      "name": "Brits",
+      "province": "North West",
+      "pts": 6,
+      "type": "town",
+      "x": 610,
+      "y": 180
+    },
+    {
+      "name": "Potchefstroom",
+      "province": "North West",
+      "pts": 11,
+      "type": "town",
+      "x": 520,
+      "y": 255
+    },
+    {
+      "name": "Johannesburg",
+      "province": "Gauteng",
+      "pts": 27,
+      "type": "city",
+      "x": 705,
+      "y": 240
+    },
+    {
+      "name": "Soweto",
+      "province": "Gauteng",
+      "pts": 11,
+      "type": "town",
+      "x": 675,
+      "y": 275
+    },
+    {
+      "name": "Benoni",
+      "province": "Gauteng",
+      "pts": 8,
+      "type": "town",
+      "x": 760,
+      "y": 235
+    },
+    {
+      "name": "Germiston",
+      "province": "Gauteng",
+      "pts": 14,
+      "type": "town",
+      "x": 735,
+      "y": 265
+    },
+    {
+      "name": "Kempton Park",
+      "province": "Gauteng",
+      "pts": 9,
+      "type": "town",
+      "x": 760,
+      "y": 205
+    },
+    {
+      "name": "Polokwane",
+      "province": "Limpopo",
+      "pts": 22,
+      "type": "city",
+      "x": 720,
+      "y": 90
+    },
+    {
+      "name": "Tzaneen",
+      "province": "Limpopo",
+      "pts": 10,
+      "type": "town",
+      "x": 790,
+      "y": 85
+    },
+    {
+      "name": "Bela-Bela",
+      "province": "Limpopo",
+      "pts": 6,
+      "type": "town",
+      "x": 675,
+      "y": 145
+    },
+    {
+      "name": "Mokopane",
+      "province": "Limpopo",
+      "pts": 9,
+      "type": "town",
+      "x": 745,
+      "y": 135
+    },
+    {
+      "name": "Louis Trichardt",
+      "province": "Limpopo",
+      "pts": 5,
+      "type": "town",
+      "x": 760,
+      "y": 40
+    },
+    {
+      "name": "Mbombela",
+      "province": "Mpumalanga",
+      "pts": 21,
+      "type": "city",
+      "x": 860,
+      "y": 220
+    },
+    {
+      "name": "Witbank/eMalahleni",
+      "province": "Mpumalanga",
+      "pts": 12,
+      "type": "town",
+      "x": 800,
+      "y": 200
+    },
+    {
+      "name": "Middelburg",
+      "province": "Mpumalanga",
+      "pts": 8,
+      "type": "town",
+      "x": 835,
+      "y": 180
+    },
+    {
+      "name": "Secunda",
+      "province": "Mpumalanga",
+      "pts": 11,
+      "type": "town",
+      "x": 790,
+      "y": 265
+    },
+    {
+      "name": "White River",
+      "province": "Mpumalanga",
+      "pts": 4,
+      "type": "town",
+      "x": 900,
+      "y": 200
+    },
+    {
+      "name": "Durban",
+      "province": "KwaZulu-Natal",
+      "pts": 26,
+      "type": "city",
+      "x": 820,
+      "y": 405
+    },
+    {
+      "name": "Pietermaritzburg",
+      "province": "KwaZulu-Natal",
+      "pts": 12,
+      "type": "town",
+      "x": 760,
+      "y": 360
+    },
+    {
+      "name": "Richards Bay",
+      "province": "KwaZulu-Natal",
+      "pts": 9,
+      "type": "town",
+      "x": 860,
+      "y": 330
+    },
+    {
+      "name": "Ladysmith",
+      "province": "KwaZulu-Natal",
+      "pts": 6,
+      "type": "town",
+      "x": 720,
+      "y": 320
+    },
+    {
+      "name": "Newcastle",
+      "province": "KwaZulu-Natal",
+      "pts": 11,
+      "type": "town",
+      "x": 765,
+      "y": 270
+    },
+    {
+      "name": "Gqeberha (Port Elizabeth)",
+      "province": "Eastern Cape",
+      "pts": 24,
+      "type": "city",
+      "x": 665,
+      "y": 555
+    },
+    {
+      "name": "East London",
+      "province": "Eastern Cape",
+      "pts": 15,
+      "type": "town",
+      "x": 720,
+      "y": 505
+    },
+    {
+      "name": "Mthatha",
+      "province": "Eastern Cape",
+      "pts": 8,
+      "type": "town",
+      "x": 755,
+      "y": 455
+    },
+    {
+      "name": "Grahamstown",
+      "province": "Eastern Cape",
+      "pts": 4,
+      "type": "town",
+      "x": 640,
+      "y": 585
+    },
+    {
+      "name": "Queenstown",
+      "province": "Eastern Cape",
+      "pts": 7,
+      "type": "town",
+      "x": 650,
+      "y": 470
+    }
+  ],
+  "edges": [
+    {
+      "from": "Cape Town",
+      "to": "Stellenbosch",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Cape Town",
+      "to": "Paarl",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Stellenbosch",
+      "to": "Paarl",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Paarl",
+      "to": "Worcester",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Worcester",
+      "to": "George",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Worcester",
+      "to": "De Aar",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Worcester",
+      "to": "Kimberley",
+      "type": "toll_border",
+      "owner": null
+    },
+    {
+      "from": "George",
+      "to": "Gqeberha (Port Elizabeth)",
+      "type": "police",
+      "owner": null
+    },
+    {
+      "from": "Kimberley",
+      "to": "Upington",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Upington",
+      "to": "Springbok",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Kimberley",
+      "to": "Postmasburg",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Kimberley",
+      "to": "De Aar",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Kimberley",
+      "to": "Bloemfontein",
+      "type": "toll_border",
+      "owner": null
+    },
+    {
+      "from": "Postmasburg",
+      "to": "Mahikeng",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "De Aar",
+      "to": "Bloemfontein",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Bloemfontein",
+      "to": "Welkom",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Welkom",
+      "to": "Kroonstad",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Kroonstad",
+      "to": "Sasolburg",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Bloemfontein",
+      "to": "Phuthaditjhaba",
+      "type": "police",
+      "owner": null
+    },
+    {
+      "from": "Phuthaditjhaba",
+      "to": "Ladysmith",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Bloemfontein",
+      "to": "Queenstown",
+      "type": "toll_border",
+      "owner": null
+    },
+    {
+      "from": "Queenstown",
+      "to": "East London",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Queenstown",
+      "to": "Mthatha",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Gqeberha (Port Elizabeth)",
+      "to": "Grahamstown",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Grahamstown",
+      "to": "East London",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "East London",
+      "to": "Mthatha",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Gqeberha (Port Elizabeth)",
+      "to": "Queenstown",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Mthatha",
+      "to": "Durban",
+      "type": "toll_border",
+      "owner": null
+    },
+    {
+      "from": "Durban",
+      "to": "Pietermaritzburg",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Pietermaritzburg",
+      "to": "Ladysmith",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Ladysmith",
+      "to": "Newcastle",
+      "type": "police",
+      "owner": null
+    },
+    {
+      "from": "Durban",
+      "to": "Richards Bay",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Richards Bay",
+      "to": "Newcastle",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Newcastle",
+      "to": "Secunda",
+      "type": "toll_border",
+      "owner": null
+    },
+    {
+      "from": "Secunda",
+      "to": "Witbank/eMalahleni",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Witbank/eMalahleni",
+      "to": "Middelburg",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Middelburg",
+      "to": "Mbombela",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Mbombela",
+      "to": "White River",
+      "type": "police",
+      "owner": null
+    },
+    {
+      "from": "Witbank/eMalahleni",
+      "to": "Johannesburg",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Secunda",
+      "to": "Johannesburg",
+      "type": "toll_border",
+      "owner": null
+    },
+    {
+      "from": "Sasolburg",
+      "to": "Johannesburg",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Johannesburg",
+      "to": "Germiston",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Johannesburg",
+      "to": "Soweto",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Johannesburg",
+      "to": "Benoni",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Johannesburg",
+      "to": "Kempton Park",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Germiston",
+      "to": "Benoni",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Germiston",
+      "to": "Kempton Park",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Benoni",
+      "to": "Kempton Park",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Johannesburg",
+      "to": "Brits",
+      "type": "toll_border",
+      "owner": null
+    },
+    {
+      "from": "Brits",
+      "to": "Rustenburg",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Rustenburg",
+      "to": "Mahikeng",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Rustenburg",
+      "to": "Klerksdorp",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Klerksdorp",
+      "to": "Potchefstroom",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Potchefstroom",
+      "to": "Johannesburg",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Klerksdorp",
+      "to": "Welkom",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Brits",
+      "to": "Bela-Bela",
+      "type": "police",
+      "owner": null
+    },
+    {
+      "from": "Bela-Bela",
+      "to": "Polokwane",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Polokwane",
+      "to": "Mokopane",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Polokwane",
+      "to": "Tzaneen",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Polokwane",
+      "to": "Louis Trichardt",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Mokopane",
+      "to": "Bela-Bela",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Mokopane",
+      "to": "Witbank/eMalahleni",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Tzaneen",
+      "to": "Mbombela",
+      "type": "normal",
+      "owner": null
+    },
+    {
+      "from": "Polokwane",
+      "to": "Mbombela",
+      "type": "toll_border",
+      "owner": null
+    }
+  ],
+  "province_borders": {
+    "Western Cape": [
+      "Worcester",
+      "Kimberley"
+    ],
+    "Northern Cape": [
+      "Kimberley",
+      "Bloemfontein"
+    ],
+    "Free State": [
+      "Bloemfontein",
+      "Queenstown"
+    ],
+    "Eastern Cape": [
+      "Mthatha",
+      "Durban"
+    ],
+    "KwaZulu-Natal": [
+      "Newcastle",
+      "Secunda"
+    ],
+    "Gauteng": [
+      "Johannesburg",
+      "Brits"
+    ],
+    "North West": [
+      "Johannesburg",
+      "Brits"
+    ],
+    "Limpopo": [
+      "Polokwane",
+      "Mbombela"
+    ],
+    "Mpumalanga": [
+      "Secunda",
+      "Johannesburg"
+    ]
+  },
+  "province_labels": {
+    "Western Cape": {
+      "x": 180,
+      "y": 660
+    },
+    "Northern Cape": {
+      "x": 250,
+      "y": 220
+    },
+    "Free State": {
+      "x": 520,
+      "y": 455
+    },
+    "North West": {
+      "x": 490,
+      "y": 135
+    },
+    "Gauteng": {
+      "x": 715,
+      "y": 315
+    },
+    "Limpopo": {
+      "x": 740,
+      "y": 15
+    },
+    "Mpumalanga": {
+      "x": 880,
+      "y": 145
+    },
+    "KwaZulu-Natal": {
+      "x": 875,
+      "y": 455
+    },
+    "Eastern Cape": {
+      "x": 680,
+      "y": 640
+    }
+  }
+}

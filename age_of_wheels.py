@@ -7,12 +7,11 @@ from collections import deque
 from tkinter import messagebox, ttk
 from tkinter.scrolledtext import ScrolledText
 
-
 MAP_FILE = "map_data.json"
 TARGET_POINTS = 200
 START_POINTS = 120
 CANVAS_WIDTH = 1400
-CANVAS_HEIGHT = 950
+CANVAS_HEIGHT = 1000
 
 DEFAULT_MAP = {
     "nodes": [
@@ -469,7 +468,7 @@ class GameState:
 class AgeOfWheelsApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Age of Wheels: South Africa")
+        self.root.title("Siyaya!")
         self.root.geometry("1360x860")
         self.root.minsize(1280, 800)
         self.storage = MapStorage(os.path.join(os.path.dirname(os.path.abspath(__file__)), MAP_FILE))
@@ -477,6 +476,7 @@ class AgeOfWheelsApp:
         self.game = GameState(self.map_data)
 
         self.editor_mode = False
+        self.editor_collapsed = True
         self.edge_type_var = tk.StringVar(value="normal")
         self.editor_status_var = tk.StringVar(value="Editor off")
         self.turn_var = tk.StringVar()
@@ -596,24 +596,35 @@ class AgeOfWheelsApp:
 
         editor_panel = ttk.Frame(sidebar, style="Card.TFrame", padding=14)
         editor_panel.pack(fill="x", pady=(0, 12))
-        ttk.Label(editor_panel, text="Editor", style="CardTitle.TLabel").pack(anchor="w")
-        ttk.Label(editor_panel, textvariable=self.editor_status_var, style="Body.TLabel", wraplength=300).pack(anchor="w", pady=(6, 8))
-        editor_buttons = ttk.Frame(editor_panel, style="Card.TFrame")
+        editor_header = ttk.Frame(editor_panel, style="Card.TFrame")
+        editor_header.pack(fill="x")
+        ttk.Label(editor_header, text="Editor", style="CardTitle.TLabel").pack(side="left")
+        self.editor_collapse_btn = ttk.Button(
+            editor_header,
+            text="Show",
+            style="Ghost.TButton",
+            command=self.toggle_editor_pane
+        )
+        self.editor_collapse_btn.pack(side="right")
+        self.editor_body = ttk.Frame(editor_panel, style="Card.TFrame")
+        ttk.Label(self.editor_body, textvariable=self.editor_status_var, style="Body.TLabel", wraplength=300).pack(anchor="w", pady=(6, 8))
+        editor_buttons = ttk.Frame(self.editor_body, style="Card.TFrame")
         editor_buttons.pack(fill="x")
+
         ttk.Button(editor_buttons, text="Toggle Editor (E)", style="Ghost.TButton", command=self.toggle_editor).pack(fill="x", pady=(0, 6))
         ttk.Button(editor_buttons, text="Add Node", style="Ghost.TButton", command=self.open_add_node_form).pack(fill="x", pady=(0, 6))
         ttk.Button(editor_buttons, text="Save Map", style="Ghost.TButton", command=self.save_map).pack(fill="x", pady=(0, 6))
-        ttk.Label(editor_panel, text="New edge type", style="Body.TLabel").pack(anchor="w", pady=(6, 4))
+        ttk.Label(self.editor_body, text="New edge type", style="Body.TLabel").pack(anchor="w", pady=(6, 4))
         self.edge_type_combo = ttk.Combobox(
-            editor_panel,
+            self.editor_body,
             textvariable=self.edge_type_var,
             values=("normal", "police", "toll_border"),
             state="readonly",
             style="Editor.TCombobox"
         )
         self.edge_type_combo.pack(fill="x", pady=(0, 6))
-        ttk.Button(editor_panel, text="Apply Selected Edge", style="Ghost.TButton", command=self.apply_selected_edge).pack(fill="x", pady=(0, 6))
-        ttk.Button(editor_panel, text="Remove Selected Edge", style="Ghost.TButton", command=self.remove_selected_edge).pack(fill="x")
+        ttk.Button(self.editor_body, text="Apply Selected Edge", style="Ghost.TButton", command=self.apply_selected_edge).pack(fill="x", pady=(0, 6))
+        ttk.Button(self.editor_body, text="Remove Selected Edge", style="Ghost.TButton", command=self.remove_selected_edge).pack(fill="x")
 
         instructions = ttk.Frame(sidebar, style="Card.TFrame", padding=14)
         instructions.pack(fill="x", pady=(0, 12))
@@ -657,6 +668,7 @@ class AgeOfWheelsApp:
             relief="solid"
         )
         self.tooltip_label.place_forget()
+        self.toggle_editor_pane(force_collapsed=True)
 
     def _bind_events(self):
         self.root.bind("<e>", lambda _event: self.toggle_editor())
@@ -963,6 +975,20 @@ class AgeOfWheelsApp:
         self.storage.save(self.map_data)
         self.editor_status_var.set("Saved map_data.json.")
         self.log("Map changes saved to map_data.json.")
+
+    def toggle_editor_pane(self, force_collapsed=None):
+        if force_collapsed is None:
+            self.editor_collapsed = not self.editor_collapsed
+        else:
+            self.editor_collapsed = force_collapsed
+        if self.editor_collapsed:
+            self.editor_body.pack_forget()
+            self.editor_collapse_btn.configure(text="Show")
+        else:
+            self.editor_body.pack(fill="x", pady=(6, 0))
+            self.editor_collapse_btn.configure(text="Hide")
+
+
 
     def toggle_editor(self):
         self.editor_mode = not self.editor_mode
@@ -1295,12 +1321,74 @@ class AgeOfWheelsApp:
                 fill=player["color"], outline=outline, width=outline_width
             )
 
+        legend_x = 24
+        legend_y = 20
         self.canvas.create_text(
-            20, 20,
-            text="Legend: blue glow = move, gold glow = invest, red dashed = police, amber dashed = toll border, bright marker = active player",
+            legend_x, legend_y,
+            text="Legend",
+            anchor="w",
+            fill="#e2e8f0",
+            font=("Segoe UI", 11, "bold")
+        )
+
+        self.canvas.create_oval(
+            legend_x, legend_y + 18, legend_x + 18, legend_y + 36,
+            fill="#132f4c", outline="#22d3ee", width=3
+        )
+        self.canvas.create_text(
+            legend_x + 28, legend_y + 27,
+            text="Reachable move",
             anchor="w",
             fill="#cbd5e1",
-            font=("Segoe UI", 10)
+            font=("Segoe UI", 9)
+        )
+
+        self.canvas.create_oval(
+            legend_x + 130, legend_y + 18, legend_x + 148, legend_y + 36,
+            fill="#291f08", outline="#facc15", width=4
+        )
+        self.canvas.create_text(
+            legend_x + 158, legend_y + 27,
+            text="Investable node",
+            anchor="w",
+            fill="#cbd5e1",
+            font=("Segoe UI", 9)
+        )
+
+        self.canvas.create_line(
+            legend_x, legend_y + 54, legend_x + 22, legend_y + 54,
+            fill="#ef4444", width=3, dash=(7, 4)
+        )
+        self.canvas.create_text(
+            legend_x + 28, legend_y + 54,
+            text="Police road",
+            anchor="w",
+            fill="#cbd5e1",
+            font=("Segoe UI", 9)
+        )
+
+        self.canvas.create_line(
+            legend_x + 130, legend_y + 54, legend_x + 152, legend_y + 54,
+            fill="#f59e0b", width=3, dash=(10, 6)
+        )
+        self.canvas.create_text(
+            legend_x + 158, legend_y + 54,
+            text="Toll border",
+            anchor="w",
+            fill="#cbd5e1",
+            font=("Segoe UI", 9)
+        )
+
+        self.canvas.create_oval(
+            legend_x, legend_y + 71, legend_x + 14, legend_y + 85,
+            fill="#57a0ff", outline="#fde68a", width=3
+        )
+        self.canvas.create_text(
+            legend_x + 28, legend_y + 78,
+            text="Active player marker",
+            anchor="w",
+            fill="#cbd5e1",
+            font=("Segoe UI", 9)
         )
 
     def animate_glow(self):

@@ -5,216 +5,216 @@
       "province": "Western Cape",
       "pts": 29,
       "type": "city",
-      "x": 110,
-      "y": 570
+      "x": 75,
+      "y": 727
     },
     {
       "name": "Stellenbosch",
       "province": "Western Cape",
       "pts": 13,
       "type": "town",
-      "x": 180,
-      "y": 545
+      "x": 204,
+      "y": 751
     },
     {
       "name": "Paarl",
       "province": "Western Cape",
       "pts": 10,
       "type": "town",
-      "x": 210,
-      "y": 515
+      "x": 134,
+      "y": 583
     },
     {
       "name": "Worcester",
       "province": "Western Cape",
       "pts": 5,
       "type": "town",
-      "x": 285,
-      "y": 490
+      "x": 224,
+      "y": 598
     },
     {
       "name": "George",
       "province": "Western Cape",
       "pts": 7,
       "type": "town",
-      "x": 260,
-      "y": 615
+      "x": 298,
+      "y": 684
     },
     {
       "name": "Kimberley",
       "province": "Northern Cape",
       "pts": 20,
       "type": "city",
-      "x": 390,
-      "y": 360
+      "x": 152,
+      "y": 186
     },
     {
       "name": "Upington",
       "province": "Northern Cape",
       "pts": 8,
       "type": "town",
-      "x": 225,
-      "y": 320
+      "x": 150,
+      "y": 342
     },
     {
       "name": "Springbok",
       "province": "Northern Cape",
       "pts": 5,
       "type": "town",
-      "x": 120,
-      "y": 250
+      "x": 77,
+      "y": 294
     },
     {
       "name": "De Aar",
       "province": "Northern Cape",
       "pts": 3,
       "type": "town",
-      "x": 355,
-      "y": 445
+      "x": 317,
+      "y": 557
     },
     {
       "name": "Postmasburg",
       "province": "Northern Cape",
       "pts": 7,
       "type": "town",
-      "x": 330,
-      "y": 300
+      "x": 326,
+      "y": 184
     },
     {
       "name": "Bloemfontein",
       "province": "Free State",
       "pts": 25,
       "type": "city",
-      "x": 520,
-      "y": 405
+      "x": 507,
+      "y": 580
     },
     {
       "name": "Welkom",
       "province": "Free State",
       "pts": 10,
       "type": "town",
-      "x": 515,
-      "y": 335
+      "x": 443,
+      "y": 428
     },
     {
       "name": "Sasolburg",
       "province": "Free State",
       "pts": 7,
       "type": "town",
-      "x": 580,
-      "y": 290
+      "x": 582,
+      "y": 364
     },
     {
       "name": "Kroonstad",
       "province": "Free State",
       "pts": 5,
       "type": "town",
-      "x": 565,
-      "y": 345
+      "x": 531,
+      "y": 402
     },
     {
       "name": "Phuthaditjhaba",
       "province": "Free State",
       "pts": 9,
       "type": "town",
-      "x": 630,
-      "y": 375
+      "x": 595,
+      "y": 470
     },
     {
       "name": "Rustenburg",
       "province": "North West",
       "pts": 23,
       "type": "city",
-      "x": 560,
-      "y": 205
+      "x": 479,
+      "y": 76
     },
     {
       "name": "Klerksdorp",
       "province": "North West",
       "pts": 14,
       "type": "town",
-      "x": 475,
-      "y": 250
+      "x": 410,
+      "y": 202
     },
     {
       "name": "Mahikeng",
       "province": "North West",
       "pts": 9,
       "type": "town",
-      "x": 430,
-      "y": 180
+      "x": 337,
+      "y": 90
     },
     {
       "name": "Brits",
       "province": "North West",
       "pts": 6,
       "type": "town",
-      "x": 610,
-      "y": 180
+      "x": 585,
+      "y": 131
     },
     {
       "name": "Potchefstroom",
       "province": "North West",
       "pts": 11,
       "type": "town",
-      "x": 520,
-      "y": 255
+      "x": 488,
+      "y": 228
     },
     {
       "name": "Johannesburg",
       "province": "Gauteng",
       "pts": 27,
       "type": "city",
-      "x": 705,
-      "y": 240
+      "x": 719,
+      "y": 392
     },
     {
       "name": "Soweto",
       "province": "Gauteng",
       "pts": 11,
       "type": "town",
-      "x": 675,
-      "y": 275
+      "x": 638,
+      "y": 288
     },
     {
       "name": "Benoni",
       "province": "Gauteng",
       "pts": 8,
       "type": "town",
-      "x": 760,
-      "y": 235
+      "x": 811,
+      "y": 238
     },
     {
       "name": "Germiston",
       "province": "Gauteng",
       "pts": 14,
       "type": "town",
-      "x": 735,
-      "y": 265
+      "x": 677,
+      "y": 228
     },
     {
       "name": "Kempton Park",
       "province": "Gauteng",
       "pts": 9,
       "type": "town",
-      "x": 760,
-      "y": 205
+      "x": 723,
+      "y": 282
     },
     {
       "name": "Polokwane",
       "province": "Limpopo",
       "pts": 22,
       "type": "city",
-      "x": 720,
-      "y": 90
+      "x": 738,
+      "y": 95
     },
     {
       "name": "Tzaneen",
       "province": "Limpopo",
       "pts": 10,
       "type": "town",
-      "x": 790,
-      "y": 85
+      "x": 811,
+      "y": 56
     },
     {
       "name": "Bela-Bela",
@@ -229,136 +229,136 @@
       "province": "Limpopo",
       "pts": 9,
       "type": "town",
-      "x": 745,
-      "y": 135
+      "x": 773,
+      "y": 163
     },
     {
       "name": "Louis Trichardt",
       "province": "Limpopo",
       "pts": 5,
       "type": "town",
-      "x": 760,
-      "y": 40
+      "x": 702,
+      "y": 32
     },
     {
       "name": "Mbombela",
       "province": "Mpumalanga",
       "pts": 21,
       "type": "city",
-      "x": 860,
-      "y": 220
+      "x": 989,
+      "y": 69
     },
     {
       "name": "Witbank/eMalahleni",
       "province": "Mpumalanga",
       "pts": 12,
       "type": "town",
-      "x": 800,
-      "y": 200
+      "x": 899,
+      "y": 225
     },
     {
       "name": "Middelburg",
       "province": "Mpumalanga",
       "pts": 8,
       "type": "town",
-      "x": 835,
-      "y": 180
+      "x": 944,
+      "y": 134
     },
     {
       "name": "Secunda",
       "province": "Mpumalanga",
       "pts": 11,
       "type": "town",
-      "x": 790,
-      "y": 265
+      "x": 971,
+      "y": 271
     },
     {
       "name": "White River",
       "province": "Mpumalanga",
       "pts": 4,
       "type": "town",
-      "x": 900,
-      "y": 200
+      "x": 1095,
+      "y": 169
     },
     {
       "name": "Durban",
       "province": "KwaZulu-Natal",
       "pts": 26,
       "type": "city",
-      "x": 820,
-      "y": 405
+      "x": 1009,
+      "y": 553
     },
     {
       "name": "Pietermaritzburg",
       "province": "KwaZulu-Natal",
       "pts": 12,
       "type": "town",
-      "x": 760,
-      "y": 360
+      "x": 806,
+      "y": 523
     },
     {
       "name": "Richards Bay",
       "province": "KwaZulu-Natal",
       "pts": 9,
       "type": "town",
-      "x": 860,
-      "y": 330
+      "x": 991,
+      "y": 416
     },
     {
       "name": "Ladysmith",
       "province": "KwaZulu-Natal",
       "pts": 6,
       "type": "town",
-      "x": 720,
-      "y": 320
+      "x": 743,
+      "y": 483
     },
     {
       "name": "Newcastle",
       "province": "KwaZulu-Natal",
       "pts": 11,
       "type": "town",
-      "x": 765,
-      "y": 270
+      "x": 858,
+      "y": 390
     },
     {
       "name": "Gqeberha (Port Elizabeth)",
       "province": "Eastern Cape",
       "pts": 24,
       "type": "city",
-      "x": 665,
-      "y": 555
+      "x": 576,
+      "y": 751
     },
     {
       "name": "East London",
       "province": "Eastern Cape",
       "pts": 15,
       "type": "town",
-      "x": 720,
-      "y": 505
+      "x": 784,
+      "y": 658
     },
     {
       "name": "Mthatha",
       "province": "Eastern Cape",
       "pts": 8,
       "type": "town",
-      "x": 755,
-      "y": 455
+      "x": 733,
+      "y": 584
     },
     {
       "name": "Grahamstown",
       "province": "Eastern Cape",
       "pts": 4,
       "type": "town",
-      "x": 640,
-      "y": 585
+      "x": 817,
+      "y": 774
     },
     {
       "name": "Queenstown",
       "province": "Eastern Cape",
       "pts": 7,
       "type": "town",
-      "x": 650,
-      "y": 470
+      "x": 643,
+      "y": 583
     }
   ],
   "edges": [
